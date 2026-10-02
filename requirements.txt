@@ -1,0 +1,8 @@
+# Wayblazer EV CG Composer — dependencies
+#
+# Only runtime dependency: image compositing.
+Pillow>=9.0
+
+# Extra dependencies for the research scripts in tools/ (not needed for compositing):
+# pefile>=2023.2.7      # disasm_sc.py / disasm_full.py (PE parsing)
+# capstone>=5.0         # disasm_sc.py / disasm_full.py (disassembly)

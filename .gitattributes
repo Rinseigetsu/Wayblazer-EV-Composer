@@ -1,0 +1,13 @@
+# Normalise on LF to avoid cross-platform line-ending churn
+* text=auto eol=lf
+
+# Explicit text types
+*.py      text eol=lf
+*.md      text eol=lf
+*.txt     text eol=lf
+*.json    text eol=lf
+
+# Binary (should not appear in this repository; declared defensively)
+*.png     binary
+*.jpg     binary
+*.zip     binary

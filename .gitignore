@@ -1,0 +1,50 @@
+# Game data and derived artifacts (never committed)
+*.ALF
+*.AAI
+*.EXE
+AGE.EXE
+SYS5INI.BIN
+DATA*.ALF
+APPEND*.ALF
+APPEND*.AAI
+*.AGF
+*.xwm
+*.wav
+
+# Composer output
+EV_output/
+out/
+output/
+
+# Decompilation artifacts (contain game-code-derived material)
+ghidra_proj/
+ghidra_scripts/
+ghidra_appdata/
+ghidra_user/
+decompile_*_out.txt
+*.rep/
+*.gpr
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Editors / OS
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Scratch
+*.tmp
+*.log
+_tidy.ps1
+_cleanup.ps1
+_patch*.py
+_patch*.ps1
